@@ -185,19 +185,25 @@
 }
 
 .block1 p{
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
+    font-size: 15px;
+    height: 9px;
+
+}
+
+.block1{
+    margin-bottom: 10px;
 }
 
 
 .contact a{
     font-size: 16px;
-    margin-top: 0;
+    margin-bottom: 5px;
 }
 
 .contact{
-    margin-top: 8px;
+    margin-top: 23px;
+    box-sizing: border-box;
+    padding: 0;
 }
 
 .addrBlock{
@@ -228,6 +234,7 @@
     width: 164px;
     height: 104px;
     margin-top: 0px;
+    margin-top: 10px;
 }
 
 .copyright{
@@ -242,7 +249,7 @@
 
 .address{
     position: absolute;
-    top: 50px;
+    top: 66px;
     left: 28px;
     max-width: 50%;
     font-size: 12px;
@@ -263,7 +270,7 @@
 
 }  
 
-/* Responsive CSS for Table */
+/* Responsive CSS for Tablet */
 
 @media (min-width: 431px) and (max-width: 834px){
     .footer{

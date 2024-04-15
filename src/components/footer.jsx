@@ -13,8 +13,8 @@ function Footer () {
                     <p>213 77 Malmö</p>                
                 </div>
                 <div className="contact">
-                    <a href="tel:040-6170166">Tel:040-6170166</a>
-                    <a href="mailto:info@emeldata.se"> E-POST: info@emeldata.se</a>
+                    <a href="tel:040-6170166">Tel: 040-6170166</a>
+                    <a href="mailto:info@emeldata.se"> E-post: info@emeldata.se</a>
                 </div>
                 <div className="addrBlock">
                 <p>Integritetspolicy</p>
