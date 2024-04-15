@@ -40,6 +40,25 @@ function Footer () {
                 </div>
                 </div>
             </div>
+            <div className="links2">
+            <div className="col3">
+                    <h3>Meny</h3>
+                    <p>Vårt erbjudande</p>
+                    <p>Hållbarhet</p>
+                    <p>Jobba hos oss</p>
+                    <p>Om oss</p>
+                    <p>Kontakta oss</p>
+                </div>
+                <div className="col2">
+                <h3>Din integritet</h3>
+                <p>Integritetspolicy</p>
+                <p>Cookiepolicy</p>
+                <div className="facebook">
+                    <img src="./assets/vector.png" alt="facebook logo" />
+                    <span className='logoText'>Facebook</span>
+                </div>
+                </div>
+            </div>
             <div className='about'>
                 <h3>Gasellvinnare</h3>
                 <img src="./assets/image2.png" alt="images" />
