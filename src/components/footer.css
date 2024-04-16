@@ -13,8 +13,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    
-    
 }  
 
 
@@ -25,6 +23,7 @@
     height: 340.39px;
     color: white;
     box-sizing: border-box;
+    margin-left: 38px;
 }
 
 .addrHead h3{
@@ -89,6 +88,7 @@
     grid-template-columns: 1fr 1fr ;
     font-family: Inter;
     color: white;
+    margin-left: 60px;
     
 }
 
@@ -124,6 +124,7 @@
     height: 340.39px;
     margin-top: 60px;
     box-sizing: border-box;
+    margin-left: 30px;
 
 }
 
@@ -266,11 +267,10 @@
 .address{
     position: absolute;
     top: 66px;
-    left: 28px;
+    left: -8px;
     max-width: 50%;
     font-size: 12px;
-    max-height: 50%;
-    overflow: auto;
+
 }
 
 
@@ -291,7 +291,7 @@
 
 /* Responsive CSS for Tablet */
 
-@media (min-width: 431px) and (max-width: 834px){
+@media (min-width: 431px) and (max-width: 1023px){
     .footer{
         position: fixed;
         bottom: 0;
@@ -301,7 +301,7 @@
     .address{
         position: absolute;
         top: 10px;
-        left: 28px;
+        left: -7px;
         box-sizing: border-box;
     }
 
